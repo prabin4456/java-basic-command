@@ -9,7 +9,8 @@ $ mkdir java
 
 $ cd java
 
-$ cd .. back termux
+$ cd ..
+back termux
 
 $ nano hello.java
 
