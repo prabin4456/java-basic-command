@@ -1,16 +1,17 @@
 run java termux
 
-pkg install ecj dx
+$ pkg install ecj dx
 
-pwd chek sotorage path
+$ pwd
+chek sotorage path
 
-mkdir java
+$ mkdir java
 
-cd java
+$ cd java
 
-cd .. back termux
+$ cd .. back termux
 
-nano hello.java
+$ nano hello.java
 
 class hello
 {
@@ -20,14 +21,14 @@ class hello
 	}
 }
 
-ecj hello.java
+$ ecj hello.java
 
-ls
+$ ls
 
-dx --dex --output=hello.dex hello.class
+$ dx --dex --output=hello.dex hello.class
 
-ls
+$ ls
 
-dalvikm -cp hello.dex hello
+$ dalvikm -cp hello.dex hello
 
 Hello world! 
